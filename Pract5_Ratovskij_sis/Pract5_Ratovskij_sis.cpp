@@ -184,9 +184,10 @@ int main() {
             std::cout << "Неверный выбор. Попробуйте снова.\n";
             break;
         }
-        if (choice != 8) {
+        if (choice == 8) {
             break;
         }
     }
 }
+
 
