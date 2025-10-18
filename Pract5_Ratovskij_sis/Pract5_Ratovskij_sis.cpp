@@ -140,7 +140,7 @@ int main() {
     setlocale(0, "rus");
     DoublyLinkedList list;
     int choice = 0;
-    while (choice != 9) {
+    while (choice != 8) {
         show_menu();
         std::cin >> choice;
         switch (choice) {
@@ -185,7 +185,8 @@ int main() {
             break;
         }
         if (choice != 8) {
-            system("exit");
+            break;
         }
     }
 }
+
