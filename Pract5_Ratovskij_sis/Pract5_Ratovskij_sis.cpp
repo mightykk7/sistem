@@ -25,7 +25,7 @@ public:
         }
         else {
             node->next = head;
-            node->prev = node;
+            head->prev = node;
             head = node;
         }
     }
@@ -189,5 +189,6 @@ int main() {
         }
     }
 }
+
 
 
